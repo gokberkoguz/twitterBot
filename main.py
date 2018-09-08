@@ -10,10 +10,10 @@ import json
 import os
 import sys
 from shutil import copyfile
-APP_KEY="huK5eonhfyPMYutokXK15FJhs"
-APP_SECRET="kRQckL4p35uOXuD5rBRlhoAYlHcB2C53KYbgRXWdMpipvrYi9I"
-OAUTH_TOKEN="26817205-WDZUBEy0kuerYUZXHhhMGDka5XWEAwKOJfFecy4gk"
-OAUTH_TOKEN_SECRET="T8mUlFlUQjLzVfqVqgfELapgRNHKDGOziF2o2rG9G5G3e"
+APP_KEY=""
+APP_SECRET=""
+OAUTH_TOKEN=""
+OAUTH_TOKEN_SECRET=""
 twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 restartFlag=False
 
